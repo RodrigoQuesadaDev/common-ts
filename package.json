@@ -1,0 +1,67 @@
+{
+  "name": "@rodrigodevel/common-ts",
+  "version": "0.0.1",
+  "description": "My personal collection of common reusable code written in Typescript.",
+  "main": "dist/rodrigodevel-common-ts.cjs.js",
+  "jsnext:main": "dist/rodrigodevel-common-ts.esm.js",
+  "module": "dist/rodrigodevel-common-ts.esm.js",
+  "browser": {
+    "./dist/rodrigodevel-common-ts.esm.js": "./dist/rodrigodevel-common-ts.browser.esm.js",
+    "./dist/rodrigodevel-common-ts.cjs.js": "./dist/rodrigodevel-common-ts.browser.cjs.js"
+  },
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoQuesadaDev/common-ts.git"
+  },
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "typescript",
+    "common",
+    "common-ts"
+  ],
+  "author": "RodrigoDEV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodrigoQuesadaDev/common-ts/issues"
+  },
+  "homepage": "https://github.com/RodrigoQuesadaDev/common-ts",
+  "peerDependencies": {
+    "react": ">= ^16.8.0",
+    "extrapolished": ">= ^0.0.1",
+    "react-use": ">= ^13.27.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/node": "^13.7.7",
+    "@types/react": "^16.9.23",
+    "react": "^16.13.0",
+    "react-use": "^13.27.0",
+    "rollup": "^1.32.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-sourcemaps": "^0.5.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "lodash": "^4.17.15"
+  }
+}
